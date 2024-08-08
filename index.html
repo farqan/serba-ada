@@ -27,18 +27,50 @@
         <div class="navbar-nav">
             <a href="#home">Home</a>
             <a href="#about">Tentang Kami</a>
-            <a href="#menu">Menu</a>
+            <a href="#menu">Barang</a>
+            <a href="#products">Produk</a>
             <a href="#contact">Kontak Kami</a>
         </div>
 
         <div class="navbar-extra">
-            <a href="#" id="Search"><i data-feather="search"></i>
-            <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i>
+            <a href="#" id="search-button"><i data-feather="search"></i>
+            <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i>
             <a href="#" id="hamburger-menu"><i data-feather="menu"></i>
             </a>
         </div>
 
+<!-- search form start -->
+ <div class="search-form">
+    <input type="search" id="search-box" placeholder="Search">
+    <label for="search-box"><i data-feather="search"></i></label>
+ </div>
+<!-- search form end -->
 
+<!-- shopping cart start -->
+ <div class="shopping-cart">
+    <div class="cart-item">
+        <img src="img/Produk/1.jpg" alt="gunting">
+        <div class="item-detail"></div>
+        <h3>gunting dapur</h3>
+        <div class="item-price">Rp 13.500,-</div>
+        <i data-feather="trash-2" class="remove-item"></i>
+    </div>
+    <div class="cart-item">
+        <img src="img/Produk/1.jpg" alt="gunting">
+        <div class="item-detail"></div>
+        <h3>gunting dapur</h3>
+        <div class="item-price">Rp 13.500,-</div>
+        <i data-feather="trash-2" class="remove-item"></i>
+    </div>
+    <div class="cart-item">
+        <img src="img/Produk/1.jpg" alt="gunting">
+        <div class="item-detail"></div>
+        <h3>gunting dapur</h3>
+        <div class="item-price">Rp 13.500,-</div>
+        <i data-feather="trash-2" class="remove-item"></i>
+    </div>
+ </div>
+<!-- shopping cart end -->
     </nav>
 
     <!-- Navbar end -->
@@ -74,7 +106,7 @@
 
     <!-- Menu section start -->
      <section id="menu" class="menu">
-        <h2><span>Menu</span> kami</h2>
+        <h2><span>Barang</span> kami</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, eius ea! Nihil quis explicabo ipsum?</p>
 
         <div class="row">
@@ -84,33 +116,103 @@
                 <p class="menu-card-price">Rp. 13.500,-</p>
             </div>
             <div class="menu-card">
-                <img src="img/Menu/1.jpg" alt="gunting" class="menu-card-tittle">
-                <h3 class="menu-card-tittle">- gunting -</h3>
-                <p class="menu-card-price">Rp. 13.500,-</p>
+                <img src="img/Menu/2.jpg" alt="pisau" class="menu-card-tittle">
+                <h3 class="menu-card-tittle">- pisau -</h3>
+                <p class="menu-card-price">Rp. 18.000,-</p>
             </div>
             <div class="menu-card">
-                <img src="img/Menu/1.jpg" alt="gunting" class="menu-card-tittle">
-                <h3 class="menu-card-tittle">- gunting -</h3>
-                <p class="menu-card-price">Rp. 13.500,-</p>
+                <img src="img/Menu/3.jpg" alt="penggorengan" class="menu-card-tittle">
+                <h3 class="menu-card-tittle">- penggorengan -</h3>
+                <p class="menu-card-price">Rp. 45.000,-</p>
             </div>
             <div class="menu-card">
-                <img src="img/Menu/1.jpg" alt="gunting" class="menu-card-tittle">
-                <h3 class="menu-card-tittle">- gunting -</h3>
-                <p class="menu-card-price">Rp. 13.500,-</p>
+                <img src="img/Menu/4.jpg" alt="gelas" class="menu-card-tittle">
+                <h3 class="menu-card-tittle">- gelas -</h3>
+                <p class="menu-card-price">Rp. 25.000,-</p>
             </div>
             <div class="menu-card">
-                <img src="img/Menu/1.jpg" alt="gunting" class="menu-card-tittle">
-                <h3 class="menu-card-tittle">- gunting -</h3>
-                <p class="menu-card-price">Rp. 13.500,-</p>
+                <img src="img/Menu/5.jpg" alt="mangkok" class="menu-card-tittle">
+                <h3 class="menu-card-tittle">- mangkok -</h3>
+                <p class="menu-card-price">Rp. 17.500,-</p>
             </div>
             <div class="menu-card">
-                <img src="img/Menu/1.jpg" alt="gunting" class="menu-card-tittle">
-                <h3 class="menu-card-tittle">- gunting -</h3>
-                <p class="menu-card-price">Rp. 13.500,-</p>
+                <img src="img/Menu/6.jpg" alt="hair-dryer" class="menu-card-tittle">
+                <h3 class="menu-card-tittle">- hair dryer -</h3>
+                <p class="menu-card-price">Rp. 43.000,-</p>
             </div>
         </div>
      </section>
     <!-- Menu section end -->
+
+    <!-- products section start -->
+     <section class="products" id="products">
+        <h2><span>Produk</span> Unggulan Kami</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima nobis, accusamus nulla quasi in quaerat.</p>
+
+        <div class="row">
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="img/Produk/1.jpg" alt="gunting">
+                </div>
+                <div class="product-content">
+                    <h3>gunting dapur</h3>
+                    <div class="product-stars">
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star" class="star-full"></i>
+                        <i data-feather="star"></i>
+                    </div>
+                    <div class="product-price">Rp 13.500,- <span>Rp 25.000,-</span></div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="./img/Produk/1.jpg" alt="gunting">
+                </div>
+                <div class="product-content">
+                    <h3>gunting dapur</h3>
+                    <div class="product-stars">
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                    </div>
+                    <div class="product-price">Rp 13.500,- <span>Rp 25.000,-</span></div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-icons">
+                    <a href="#"><i data-feather="shopping-cart"></i></a>
+                    <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="./img/Produk/1.jpg" alt="gunting">
+                </div>
+                <div class="product-content">
+                    <h3>gunting dapur</h3>
+                    <div class="product-stars">
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                        <i data-feather="star"></i>
+                    </div>
+                    <div class="product-price">Rp 13.500,- <span>Rp 25.000,-</span></div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- products section end -->
 
     <!-- Kontak section Start -->
      <section id="contact" class="contact">
@@ -130,7 +232,7 @@
             </div>
             <div class="input-group">
                 <i data-feather="phone"></i>
-                <input type="number" placeholder="no hp">
+                <input type="number" inputmode="number" placeholder="no hp">
             </div>
             <button type="submit" class="btn">Kirim pesan</button>
         </form>
@@ -148,7 +250,7 @@
         <div class="links">
             <a href="#home">Home</a>
             <a href="#about">Tentang kami</a>
-            <a href="#menu">Menu</a>
+            <a href="#menu">Barang</a>
             <a href="#contact">Kontak</a>
         </div>
         <div class="credit">
@@ -157,6 +259,29 @@
      </footer>
     <!-- footer end -->
 
+<!-- modal box item detail item start -->
+ <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x-circle"></i></a>
+        <div class="modal-content">
+            <img src="img/Produk/1.jpg" alt="gunting">
+            <div class="produk-content">
+                <h3>gunting dapur</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sapiente id optio nemo hic sint eligendi modi eos fuga inventore.</p>
+                <div class="product-stars">
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star" class="star-full"></i>
+                    <i data-feather="star"></i>
+                </div>
+                <div class="product-price">Rp 13.500,- <span>Rp 25.000,-</span></div>
+                <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- modal box item detail item end -->
 <!-- icons  -->
 <script>
     feather.replace();
